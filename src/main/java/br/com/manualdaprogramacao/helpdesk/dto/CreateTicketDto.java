@@ -1,0 +1,21 @@
+package br.com.manualdaprogramacao.helpdesk.dto;
+
+import br.com.manualdaprogramacao.helpdesk.domain.Attachment;
+import lombok.Data;
+
+import java.util.List;
+import java.util.UUID;
+
+@Data
+public class CreateTicketDto {
+
+    private String subject;
+
+    private String description;
+
+    private UUID createdByUserId;
+
+    private List<AttachmentDto> attachments;
+
+
+}
