@@ -1,4 +1,4 @@
-Essa é a primeira parte do sistema "Backend".
+Essa é a primeira parte do sistema HelpDesk, esse é o "Backend".
 
 Esse sistema de chamados terá o Backend - Frontend - Base de Dados.
 
